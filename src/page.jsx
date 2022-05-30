@@ -10,10 +10,10 @@ export const Page=()=> {
         <div>
             <Router>
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/work" element={<Work />} />
-                    <Route path="/hobby" element={<Hobby />} />
-                    <Route path="/*" element={<NotFound />} />
+                    <Route path="/portfolio-page/" element={<Home />} />
+                    <Route path="/portfolio-page/work" element={<Work />} />
+                    <Route path="/portfolio-page/hobby" element={<Hobby />} />
+                    <Route path="/portfolio-page/*" element={<NotFound />} />
                 </Routes>
             </Router>
         </ div>

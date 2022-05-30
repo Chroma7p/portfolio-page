@@ -8,9 +8,9 @@ export const Navbar = () => {
                     <span className="text-slate-100 ml-3 text-xl">Portfolio</span>
                 </a>
                 <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                    <a href="/" className="mr-5 hover:text-gray-900">Top</a>
-                    <a href="/work" className="mr-5 hover:text-gray-900">Work</a>
-                    <a href="/hobby" className="mr-5 hover:text-gray-900">Hobby</a>
+                    <a href="/portfolio-page/" className="mr-5 hover:text-gray-900">Top</a>
+                    <a href="/portfolio-page/work" className="mr-5 hover:text-gray-900">Work</a>
+                    <a href="/portfolio-page/hobby" className="mr-5 hover:text-gray-900">Hobby</a>
 
                 </nav>
             </div>
