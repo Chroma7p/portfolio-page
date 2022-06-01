@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
+const homeurl=process.env.PUBLIC_URL;
 export const Navbar = () => {
     return (
         <header className="bg-slate-800 text-slate-100 body-font">
@@ -8,10 +10,9 @@ export const Navbar = () => {
                     <span className="text-slate-100 ml-3 text-xl">Portfolio</span>
                 </a>
                 <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                    <a href="/portfolio-page/" className="mr-5 hover:text-gray-900">Top</a>
-                    <a href="/portfolio-page/work" className="mr-5 hover:text-gray-900">Work</a>
-                    <a href="/portfolio-page/hobby" className="mr-5 hover:text-gray-900">Hobby</a>
-
+                    <Link to={homeurl+"/"} className="mr-5 hover:text-gray-900">Top</Link>
+                    <Link to={homeurl+"/work"} className="mr-5 hover:text-gray-900">Work</Link>
+                    <Link to={homeurl+"/hobby"} className="mr-5 hover:text-gray-900">Hobby</Link>
                 </nav>
             </div>
         </header>

@@ -22,7 +22,7 @@ export const Home = () => {
                         上濱 涼雅 
                     </div>
                     <p>
-                    普段はくろまという名前でPythonを使って競技プログラミングコンテストに参加したり、CTFに参加したり、DiscordBot等の個人開発をしています。
+                    普段はPythonを使って競技プログラミングコンテストに参加したり、CTFに参加したり、DiscordBot等の個人開発をしています。
                     </p>
                 </div>
                 <Block2 title="所属">
