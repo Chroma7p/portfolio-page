@@ -43,14 +43,22 @@ h4{
 
 html {
   /* デフォルト（モバイルビュー）ではベースのfont-sizeは12px相当 */
-  font-size: 130%;
+  font-size: 75%;
+}
+iframe {
+  transform: scale(0.5);
+  transform-origin: 0 0;
 }
 
 @media screen and (min-width:768px) {
   html {
     /* タブレットビューではベースのfont-sizeは14px相当 */
-    font-size: 110%;
+    font-size: 87.5%;
   }
+    iframe {
+      transform: scale(1);
+      transform-origin: 0 0;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -58,6 +66,10 @@ html {
     /* デスクトップビューではベースのfont-sizeは16px相当 */
     font-size: 100%;
   }
+    iframe {
+      transform: scale(1);
+      transform-origin: 0 0;
+    }
 }
 
 

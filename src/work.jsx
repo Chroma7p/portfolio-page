@@ -7,6 +7,10 @@ import aipost from "./pics/AIPOST.png"
 import taskmanage from "./pics/task_manager.png"
 import suico from "./pics/SUICOVERY.jpg"
 
+const zoom={
+    zoom:"0.5"
+}
+
 export const Work = () => {
     return (
         <Base title="制作物">
@@ -17,7 +21,7 @@ export const Work = () => {
                     </LinkBtn>Happy Hacking賞<br /> にて、Happy Hacking賞を受賞した作品。<br/>
                     映像の音声に合わせて座布団に内蔵したモーターや外付けのミストが動作し、4D映画のような体感を手軽に得ることができる。<br/>
                     私は映像の音声を判定する機械学習モデルを担当した。
-                    <iframe src="https://onedrive.live.com/embed?cid=92FB6F5CFB1C5CB2&amp;resid=92FB6F5CFB1C5CB2%212075&amp;authkey=AE_d-WasIoNzsgM&amp;em=2&amp;wdAr=1.7777777777777777" width="480px" height="300px" frameborder="0">これは、<a target="_blank" href="https://office.com/webapps">Office</a> の機能を利用した、<a target="_blank" href="https://office.com">Microsoft Office</a> の埋め込み型のプレゼンテーションです。</iframe>
+                    <iframe src="https://onedrive.live.com/embed?cid=92FB6F5CFB1C5CB2&amp;resid=92FB6F5CFB1C5CB2%212075&amp;authkey=AE_d-WasIoNzsgM&amp;em=2&amp;wdAr=1.7777777777777777" width="480px" height="300px" frameorder="0" >これは、<a target="_blank" href="https://office.com/webapps">Office</a> の機能を利用した、<a target="_blank" href="https://office.com">Microsoft Office</a> の埋め込み型のプレゼンテーションです。</iframe>
                 </Block2>
                 <Block2 title="SUICOVERY">
                     <LinkBtn link="https://special.discoveryjapan.jp/campaign/hackathon2021/" >
@@ -28,7 +32,7 @@ export const Work = () => {
                     実際に参加型のデモを行ったところ、オンライン特有のタイムラグによる意図しない動きやテストではできなかった大人数の参加により、予想以上に盛り上がった。<br/>  
                     私は文字に起こしされた入力を解析し、ロボットへの指示に変換する部分を担当した。<br/>
                     <LinkBtn link="https://github.com/Chroma7p/discovery2021">リポジトリ</LinkBtn>
-                    <img src={suico} alt="picture"></img>
+                    <img src={suico} alt="picture" width="400px"></img>
                 </Block2>
                 <Block2 title="A.I.POST">
                     Digital Hack Day2021で制作した作品。<br/>
@@ -36,14 +40,14 @@ export const Work = () => {
                     郵便物が投函されると、中のカメラで投函されたことを判定し、投函された物を撮影する。撮影した画像から郵便物の内容を判断し、重要なものであれば通知し、チラシなどは無視する。<br/>
                     私は投函されたものを撮影し加工する部分を担当した。<br/>
                     <LinkBtn link="https://github.com/csenet/digital-hackday-2021">リポジトリ</LinkBtn>
-                    <img src={aipost} alt="picture"></img>
+                    <img src={aipost} alt="picture" width="400px"></img>
                 </Block2>
                 <Block2 title="タスクマネージャーbot">
                     N Code Labo講師によるハッカソンで作成したDiscordBot。<br/>
                     コマンドでタスクと期日を登録し、毎日タスクの状況を通知する。完了した場合はタスクを削除し褒めてくれる。<br/>
                     ユーザーごとに定時にタスクの状況を通知する機能がついている。<br/>
                     <LinkBtn link="https://github.com/Chroma7p/task_manager_bot">リポジトリ</LinkBtn>
-                    <img src={taskmanage} alt="picture"></img>
+                    <img src={taskmanage} alt="picture" width="400px"></img>
                 </Block2>
             </Block1>
             <Block1 title="個人開発">
@@ -55,7 +59,7 @@ export const Work = () => {
                     さらに現在スコアを管理するためのプログラムと統合し、より多機能にするアップデートを予定している。
                     現在は、そのアップデートとデータベースへの楽曲データの移行のために開発を進めている。<br/>
                     <LinkBtn link="https://github.com/Chroma7p/assignment_song_bot_for_public">公開用リポジトリ</LinkBtn>
-                    <img src={songbot} alt="picture"></img>
+                    <img src={songbot} alt="picture" width="400px"></img>
                 </Block2>
                 <Block2 title="STP Judge">
                     Python等でクラスを学ぶための教材として用いているShopping Theme Programのジャッジ用のサイト。

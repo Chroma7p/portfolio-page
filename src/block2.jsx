@@ -1,7 +1,7 @@
 import React from 'react';
 
 const block2={
-    margin: "1rem 2rem 1rem",
+    margin: "1rem 0.5rem 1rem",
 }
 
 const inblock2={
