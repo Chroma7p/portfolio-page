@@ -1,10 +1,10 @@
 import React from 'react';
 
 const block3 ={
-    margin: "0px 0px 10px",
+    margin: "0px 0px 0.5rem",
 }
 const inblock3={
-    margin: "0px 20px",
+    margin: "0px 1rem",
 }
 
 export const Block3 = (props) => {

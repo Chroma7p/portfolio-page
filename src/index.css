@@ -25,36 +25,40 @@ ul{
 
 h1{
   border-bottom: 3px solid #000;
-  font-size: 30px;
+  font-size: 2.5rem;
 }
 
 h2{
     border-bottom: 3px solid #000;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 h3{
   border-bottom: 3px solid #000;
-  font-size:20px;
+  font-size:2rem;
 }
 h4{
-  font-size: 20px;
+  font-size: 2rem;
 }
 
-div.base{
-  padding: 10px 70px 30px;
+html {
+  /* デフォルト（モバイルビュー）ではベースのfont-sizeは12px相当 */
+  font-size: 130%;
 }
-div.block1{
-  margin: 20px 30px 10px;
+
+@media screen and (min-width:768px) {
+  html {
+    /* タブレットビューではベースのfont-sizeは14px相当 */
+    font-size: 110%;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  html {
+    /* デスクトップビューではベースのfont-sizeは16px相当 */
+    font-size: 100%;
+  }
 }
 
 
-
-div.name{
-  margin: 20px;
-  font-size: 50px;
-}
-div.nmblk{
-  margin: 10px 20px;
-}
 

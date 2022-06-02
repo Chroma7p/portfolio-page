@@ -1,5 +1,12 @@
+const notfound={
+    fontSize:"4rem",
+
+}
+
 export const NotFound = () => {
     return (
-        <h1>Sorry this page is not found...</h1>
+        <div style={notfound}>
+        Sorry this page is not found...
+        </div>
     )
 }
