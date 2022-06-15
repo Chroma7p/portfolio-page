@@ -6,6 +6,7 @@ import songbot from "./pics/song_bot.png"
 import aipost from "./pics/AIPOST.png"
 import taskmanage from "./pics/task_manager.png"
 import suico from "./pics/SUICOVERY.jpg"
+import akarichang from "./pics/Yomiage-Akari-Chang.png"
 
 const zoom={
     zoom:"0.5"
@@ -49,6 +50,14 @@ export const Work = () => {
                     <LinkBtn link="https://github.com/Chroma7p/task_manager_bot">リポジトリ</LinkBtn>
                     <img src={taskmanage} alt="picture" width="400px"></img>
                 </Block2>
+                <Block2 title="A.I.Voice APIラッパー・Yomiage-Akari-Chang">
+                    N Code Labo講師によるハッカソンで作成したもの。<br/>
+                    .NETで提供されているA.I.VOICE(テキストを入力すると自然に読み上げてくれるアプリケーション)のAPIのPythonによるラッパーと、それを用いて作られたDiscordBot。<br/>
+                    ハッカソン内では、ラッパーとして最低限の読み上げ機能周りを実装し、Discordで、受け取った内容を読み上げるBotをそれを用いて作った。<br/>
+                    現在はBotは自分のPCで動作させ、そのPCで受け取った内容を再生している。
+                    せっかくDiscordBotにしたので、キャラクター切り替えコマンドを実装した。
+                    <img src={akarichang} alt="picture" width="400px"></img>
+                </Block2>
             </Block1>
             <Block1 title="個人開発">
                 <Block2 title="課題曲bot">
@@ -62,7 +71,7 @@ export const Work = () => {
                     <img src={songbot} alt="picture" width="400px"></img>
                 </Block2>
                 <Block2 title="STP Judge">
-                    Python等でクラスを学ぶための教材として用いているShopping Theme Programのジャッジ用のサイト。
+                    Python等でクラスを学ぶための教材として用いている<LinkBtn link="https://github.com/MogamiTsuchikawa/ShoppingThemeProgram">Shopping Theme Program</LinkBtn>のジャッジ用のサイト。
                     JavaScript、Reactの学習用に制作。(現在制作中)
                 </Block2>
                 <Block2 title="portfolio-page">
